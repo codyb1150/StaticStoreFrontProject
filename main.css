@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    background-color: #92A7FF;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    padding-left: 150px;
+    width: 100%;
+    border: solid 2px white; 
+    border-radius: 0px 0px 20px 20px; 
+    background-color: white;
+    font-family: 'Cabin'
+}
+
+#importcentral { 
+    text-decoration: none;
+    border: solid 2px #92A7Ff;
+    border-radius: 15px;
+    background-color: #92a7ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    font-family: 'Merienda';
+    margin: 0 auto; 
+    text-align: center !important;
+}
+
+
+ul#menu li {
+   display:inline; 
+   margin: 20px 20px 20px 40px;
+}
+
+#gtr {
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+#gtr:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+#s2000{
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+#s2000:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+#rx7{
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+#rx7:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+#two40sx{
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+#two40sx:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+#scionfrs{
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+#scionfrs:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+
+#evo9{
+    margin-bottom: 10px;
+    border: solid 20px white;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+#evo9:hover { 
+    transition: .3s;
+    border: solid 20px #E5E5E5;
+}
+
+#border {
+    border: solid 2px #E6E9E9;
+    border-radius: 5px;
+    background-color: #E6E9E9;
+    width: 100%;
+    text-align: center;
+}
+
+#contact {
+    border: solid 10px white;
+    border-radius: 5px;
+    background-color: white;
+}
