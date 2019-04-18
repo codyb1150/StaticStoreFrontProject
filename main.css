@@ -14,7 +14,8 @@ html {
     border: solid 2px white; 
     border-radius: 0px 0px 20px 20px; 
     background-color: white;
-    font-family: 'Cabin'
+    font-family: 'Cabin';
+    z-index: 1 !important;
 }
 
 #importcentral { 
@@ -26,16 +27,14 @@ html {
     padding-bottom: 10px;
     padding-left: 80px;
     padding-right: 80px;
-    
     font-family: 'Merienda';
     margin: 0 auto; 
     text-align: center !important;
 }
 
-
 ul#menu li {
    display:inline; 
-   margin: 20px 20px 20px 40px;
+   margin: 20px 20px 20px 0px;
 }
 
 #gtr {
@@ -108,18 +107,46 @@ ul#menu li {
     border: solid 20px #E5E5E5;
 }
 
+.container1 {
+    position: relative;
+    width: 50%;
+    padding: 25px;
+  }
 
-#evo9{
-    margin-bottom: 10px;
-    border: solid 20px white;
-    border-radius: 20px;
-    background-color: white;
-    text-decoration: none;
-}
+  img { 
+    border-radius: 30px;
+    margin: 10px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #92A7FF;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 
-#evo9:hover { 
-    transition: .3s;
-    border: solid 20px #E5E5E5;
+  
+#border {
+    border: solid 2px #E6E9E9;
+    border-radius: 5px;
+    background-color: #E6E9E9;
+    width: 100%;
+    text-align: center;
 }
 
 #border {
@@ -132,6 +159,13 @@ ul#menu li {
 
 #contact {
     border: solid 10px white;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: white;
+    
 }
+
+.footer1 {
+    text-align: center;
+}
+
+
